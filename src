@@ -100,7 +100,7 @@ public class Main extends Application {
         return  insuranceYear;
     }
     private double maintenance(double mCost, double tCost){
-        double addTax = (mCost * tCost); //tax is implemented in this line, assuming the user hasn't already included it.
+        double addTax = (mCost * tCost);
         double yearlyCost = mCost + addTax;
         return  yearlyCost;
     }
